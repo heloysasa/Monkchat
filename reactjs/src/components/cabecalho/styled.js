@@ -25,6 +25,23 @@ const ContainerCabecalho = styled.div`
         font: 700 2.2em Montserrat;
     }
 
+    .sair{
+    font-weight: 700;
+    color: #fff;
+    background: #50B4BF;
+    border: none;
+    border-radius: 20px;
+    padding: .5em 1.1em .5em .6em;
+    margin: .3em;
+    cursor: pointer;
+    margin-left: 49em;
+    }
+
+    .sair:hover {
+        background-color: #299ca8;
+        transition: 0.2sec;
+    }
+
 
     @media (max-width: 400px) {
         flex-direction: column;
